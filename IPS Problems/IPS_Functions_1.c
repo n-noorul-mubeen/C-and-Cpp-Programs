@@ -1,9 +1,4 @@
-/*Write a C code using functions to find the lcm of two numbers using functions
-Input format:
-number
-number 2
-Output format:
-LCM of the two numbers is to be printed*/
+
 #include <stdio.h>
 int lcm(int n1, int n2){
     int i,k;
