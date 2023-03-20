@@ -1,14 +1,14 @@
 #include <stdio.h>
 int sort(int array[],int n){
-    int i,j,element;
+    int i,j,e;
     for (i=1;i<n;i++) { 
-        element=array[i];
-        j = i - 1;
-        while (j>=0 && array[j]>element) { 
+        e=array[i];
+        j=i-1;
+        while ((j>=0)&&(array[j]>e)) { 
             array[j+1]=array[j]; 
             j=j-1; 
         } 
-        array[j+1]=element; 
+        array[j+1]=e; 
     
     }
     for (i=0;i<n;i++) {
