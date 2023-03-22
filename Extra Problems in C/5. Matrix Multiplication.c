@@ -5,6 +5,8 @@ void multi_mat(int m, int n, int o, int ar_a[m][n], int ar_b[n][o]){
     
     printf("Enter the elements of array 1:\n");
     
+    //Appending Elements to Array 1
+    
     for(i=0;i<m;++i){
         for(j=0;j<n;++j){
             scanf("%d",&ar_a[i][j]);
@@ -13,6 +15,8 @@ void multi_mat(int m, int n, int o, int ar_a[m][n], int ar_b[n][o]){
     
     printf("Enter the elements of array 2:\n");
     
+    //Appending Elements to Array 2
+    
     for(i=0;i<n;++i){
         for(j=0;j<o;++j){
             scanf("%d",&ar_b[i][j]);
@@ -20,6 +24,9 @@ void multi_mat(int m, int n, int o, int ar_a[m][n], int ar_b[n][o]){
     }
     
     printf("The elements of the resultant array from the multiplication of array 1 and array 2:\n");
+    
+    //Calculating the multiplication of Array 1 and Array 2 and appending it to the Multiplication Array
+    
     for(i=0;i<m;++i){
         
         for(j=0;j<o;++j){
