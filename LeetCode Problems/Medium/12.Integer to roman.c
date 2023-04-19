@@ -31,7 +31,6 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.*/
 
 //Code:
 
-#include <stdio.h>
 #include <stdlib.h>
 
 char *intToRoman(int number) {
