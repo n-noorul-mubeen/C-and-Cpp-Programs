@@ -29,7 +29,6 @@ Constraints:
 s consists only of printable ASCII characters.*/
 
 //Code:
-
 #include <ctype.h>
 #include <string.h>
 
