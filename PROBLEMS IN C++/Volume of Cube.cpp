@@ -4,13 +4,13 @@ using namespace std;
 
 class Volume{
     private:
-    int side;
+    int volume;
     public:
     Volume(int s){
-        side = s*s*s;
+        volume = s*s*s;
     }
     int vol(){
-        return side;
+        return volume;
     }
 };
 int main()
